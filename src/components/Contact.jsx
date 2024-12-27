@@ -8,6 +8,7 @@ const Contact = () => {
         email: "",
         message: "",
     });
+    const [showModal, setShowModal] = useState(false); // Modal visibility state
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -18,24 +19,28 @@ const Contact = () => {
 
         emailjs
             .send(
-                "service_dkfh1xj",
-                "template_5apwjbm",
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 {
                     from_name: `${formData.name} ${formData.surname}`,
                     from_email: formData.email,
                     message: formData.message,
                 },
-                "PdkhQkLc05pozyYj7"
+                import.meta.env.VITE_EMAILJS_USER_ID
             )
             .then(
                 () => {
-                    alert("Message sent successfully!");
+                    setShowModal(true); // Show the modal on success
                 },
                 (error) => {
                     alert("Failed to send the message. Please try again.");
                     console.error(error);
                 }
             );
+    };
+
+    const handleCloseModal = () => {
+        window.location.reload(); // Refresh the page when "OK" is clicked
     };
 
     return (
@@ -90,6 +95,22 @@ const Contact = () => {
                     Send Message
                 </button>
             </form>
+
+            {/* Modal */}
+            {showModal && (
+                <div className="fixed inset-0 bg-gray-700 bg-opacity-50 flex justify-center items-center z-50">
+                    <div className="bg-white p-6 rounded-lg text-center">
+                        <h2 className="text-2xl font-bold">Success!</h2>
+                        <p>Your message has been sent successfully.</p>
+                        <button
+                            onClick={handleCloseModal}
+                            className="mt-4 bg-black text-white px-6 py-2 rounded-lg"
+                        >
+                            OK
+                        </button>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
