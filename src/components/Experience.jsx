@@ -4,7 +4,7 @@ const Experience = () => {
             id="Experience"
             className="flex min-h-screen w-full flex-col items-center justify-center gap-16 p-8 md:p-20 lg:p-36"
         >
-            <h1 className="text-center text-3xl md:text-5xl font-light">Experience</h1>
+            <h1 className="text-center text-5xl font-light">Experience</h1>
 
             <div className="flex flex-col gap-8 md:flex-row md:gap-10">
                 <div className="flex-1">
