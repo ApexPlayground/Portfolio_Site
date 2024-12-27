@@ -12,7 +12,7 @@ const Project = () => {
                 </div>
 
 
-                <a className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
+                <a href="https://github.com/ApexPlayground/Apex_Healthcare" className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
                     <h1 className="text-3xl font-semibold">Apex Healthcare</h1>
                     <h3 className="text-xl ">Python, Django, JavaScript, MySQL</h3>
                     <p className="text-sm ">Developed a full-stack web application that predicts potential diseases with 95% accuracy using machine learning based on user-reported symptoms. The platform features appointment booking and a doctor&apos;s portal to notify doctors of diagnoses and scheduled appointments, improving patient care.</p>
@@ -31,11 +31,13 @@ const Project = () => {
                 </a>
 
 
-                <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
+                <a
+                    href="https://summarizeme.netlify.app/"
+                    className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
                     <h1 className="text-3xl font-semibold">SummarizeMe</h1>
                     <h3 className="text-xl ">React, Tailwind, Open API</h3>
                     <p className="text-sm ">A web application that uses OpenAI GPT-4 to summarize articles from various sources using URL links, delivering clear and understandable summaries. Designed to save time and keep users informed, the platform features a simple user-friendly interface.</p>
-                </div>
+                </a>
 
             </div>
         </div >
