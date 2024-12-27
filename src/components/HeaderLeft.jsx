@@ -20,7 +20,7 @@ const HeaderLeft = () => {
                     <li className="flex items-center justify-start cursor-pointer font-medium transition-all duration-200 group sm:text-lg md:text-xl xl:text-2xl">
                         <a
                             href="/holder.pdf"
-                            className="flex items-center justify-center bg-orange-600 text-white py-3 px-6 rounded-full hover:bg-orange-500 transition-all duration-200"
+                            className="flex items-center justify-center bg-orange-700 text-white py-3 px-6 rounded-full hover:bg-orange-500 transition-all duration-200"
                             download
                         >
                             <BiDownload className="text-2xl mr-2" />
