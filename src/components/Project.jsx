@@ -29,8 +29,13 @@ const Project = () => {
                         A lightweight shell application that supports basic shell commands, such as ls, cd, and pwd. The platform also features a history command, which logs the user&apos;s command history and allows them to access previous commands.
                     </p>
                 </a>
-
-
+                <a
+                    href="https://summarizeme.netlify.app/"
+                    className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
+                    <h1 className="text-3xl font-semibold">ApexEditor</h1>
+                    <h3 className="text-xl ">Docker, javascript, flask</h3>
+                    <p className="text-sm">A web-based IDE capable of running and compiling code, containerized with Docker.</p>
+                </a>
                 <a
                     href="https://summarizeme.netlify.app/"
                     className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
@@ -38,6 +43,8 @@ const Project = () => {
                     <h3 className="text-xl ">React, Tailwind, Open API</h3>
                     <p className="text-sm ">A web application that uses OpenAI GPT-4 to summarize articles from various sources using URL links, delivering clear and understandable summaries. Designed to save time and keep users informed, the platform features a simple user-friendly interface.</p>
                 </a>
+
+
 
             </div>
         </div >
