@@ -8,32 +8,37 @@ const Project = () => {
                 <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
                     <h1 className="text-3xl font-semibold">DocSync</h1>
                     <h3 className="text-xl ">NextJS</h3>
-                    <p className="text-sm ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est fugiat quo veritatis! Est eius quidem, quam, culpa pariatur ducimus sapiente odio atque fugit quo tempore officiis minus odit repellendus molestias.</p>
+                    <p className="text-sm ">In progress</p>
                 </div>
 
 
-                <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
+                <a className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
                     <h1 className="text-3xl font-semibold">Apex Healthcare</h1>
-                    <h3 className="text-xl ">Django, JavaScript, MySQL</h3>
-                    <p className="text-sm ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est fugiat quo veritatis! Est eius quidem, quam, culpa pariatur ducimus sapiente odio atque fugit quo tempore officiis minus odit repellendus molestias.</p>
-                </div>
+                    <h3 className="text-xl ">Python, Django, JavaScript, MySQL</h3>
+                    <p className="text-sm ">Developed a full-stack web application that predicts potential diseases with 95% accuracy using machine learning based on user-reported symptoms. The platform features appointment booking and a doctor&apos;s portal to notify doctors of diagnoses and scheduled appointments, improving patient care.</p>
+                </a>
 
-                <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
+
+                <a
+                    href="https://github.com/ApexPlayground/Shell_Lite"
+                    className="block text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white"
+                >
                     <h1 className="text-3xl font-semibold">Shell Lite</h1>
-                    <h3 className="text-xl ">Go</h3>
-                    <p className="text-sm ">Shell Lite is a basic command-line shell written in Go that allows users to execute commands interactively.</p>
-                </div>
+                    <h3 className="text-xl">Go</h3>
+                    <p className="text-sm">
+                        Shell Lite is a basic command-line shell written in Go that allows users to execute commands interactively.
+                    </p>
+                </a>
+
 
                 <div className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
                     <h1 className="text-3xl font-semibold">SummarizeMe</h1>
-                    <h3 className="text-xl ">React, Tailwind, GPT4 API</h3>
-                    <p className="text-sm ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est fugiat quo veritatis! Est eius quidem, quam, culpa pariatur ducimus sapiente odio atque fugit quo tempore officiis minus odit repellendus molestias.</p>
+                    <h3 className="text-xl ">React, Tailwind, Open API</h3>
+                    <p className="text-sm ">A web application that uses OpenAI GPT-4 to summarize articles from various sources using URL links, delivering clear and understandable summaries. Designed to save time and keep users informed, the platform features a simple user-friendly interface.</p>
                 </div>
 
-
-
             </div>
-        </div>
+        </div >
     )
 }
 
