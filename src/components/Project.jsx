@@ -30,7 +30,7 @@ const Project = () => {
                     </p>
                 </a>
                 <a
-                    href="https://summarizeme.netlify.app/"
+                    href="https://github.com/ApexPlayground/Web_Ide"
                     className="text-left space-y-2 border-2 hover:scale-105 transition-all duration-200 cursor-pointer px-8 py-10 border-black rounded-lg hover:bg-black hover:text-white">
                     <h1 className="text-3xl font-semibold">ApexEditor</h1>
                     <h3 className="text-xl ">Docker, javascript, flask</h3>
