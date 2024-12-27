@@ -8,7 +8,7 @@ import HeaderLeft from './components/HeaderLeft'
 const App = () => {
   return (
     <>
-      <div className="flex min-h-screen w-full subpixel-antialiased">
+      <div className="flex min-h-screen w-full subpixel-antialiased bg-orange-50">
         <HeaderLeft />
 
         <main className='flex-[3]'>

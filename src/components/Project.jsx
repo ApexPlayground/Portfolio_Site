@@ -26,7 +26,7 @@ const Project = () => {
                     <h1 className="text-3xl font-semibold">Shell Lite</h1>
                     <h3 className="text-xl">Go</h3>
                     <p className="text-sm">
-                        Shell Lite is a basic command-line shell written in Go that allows users to execute commands interactively.
+                        A lightweight shell application that supports basic shell commands, such as ls, cd, and pwd. The platform also features a history command, which logs the user&apos;s command history and allows them to access previous commands.
                     </p>
                 </a>
 
