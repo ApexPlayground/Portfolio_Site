@@ -30,7 +30,7 @@ const Contact = () => {
             )
             .then(
                 () => {
-                    setShowModal(true); // Show the modal on success
+                    setShowModal(true); 
                 },
                 (error) => {
                     alert("Failed to send the message. Please try again.");
@@ -40,7 +40,7 @@ const Contact = () => {
     };
 
     const handleCloseModal = () => {
-        window.location.reload(); // Refresh the page when "OK" is clicked
+        window.location.reload(); 
     };
 
     return (
