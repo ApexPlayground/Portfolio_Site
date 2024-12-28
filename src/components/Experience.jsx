@@ -12,9 +12,12 @@ const Experience = () => {
                         <h3 className="text-xl font-semibold md:text-2xl">Website Developer & Admin</h3>
                         <p className="font-light text-lg text-gray-600">The Potter&apos;s House</p>
                         <p className="text-sm text-gray-600">August 2024 - Present</p>
-                        <p className="text-sm text-gray-600">
-                            As a volunteer, I built and managed the website for The Potter&apos;s House Church, ensuring a smooth user experience and ongoing updates. I also integrated Stripe API to handle online donations, enabling secure and easy contributions for the church community. This project improved the church&apos;s digital presence and simplified the donation process.
-                        </p>
+                        <ul className="text-sm text-gray-600 list-disc ml-5">
+                            <li>Developed and managed the website for The Potter&apos;s House Church, ensuring a smooth user experience and providing regular updates.</li>
+                            <li>Integrated Stripe API to facilitate secure and efficient online donations, simplifying the contribution process for the church community.</li>
+
+                        </ul>
+
                         <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-black"></span>
                     </div>
                 </div>
@@ -24,9 +27,14 @@ const Experience = () => {
                         <h3 className="text-xl font-semibold md:text-2xl">Software Engineer Intern</h3>
                         <p className="font-light text-lg text-gray-600">Becon Hospital</p>
                         <p className="text-sm text-gray-600">June 2023 - September 2024</p>
-                        <p className="text-sm text-gray-600">
-                            I developed and optimized several systems to enhance hospital operations. This includes a medication ordering system that incorporated testing with MSTest and deployment through CI/CD pipelines, a digital patient admission form with ASP.NET, and an internal drug prescribing app to reduce errors and improve patient care. I also improved the HR portal by cutting down the processing time by 50%, and created a stock management app to enhance inventory tracking and reduce overstock. Additionally, I led a critical server migration, ensuring zero downtime and seamless operations across teams.
-                        </p>
+                        <ul className="text-sm text-gray-600 list-disc ml-5">
+                            <li>Developed a medication ordering system that enables nurses to place orders with the pharmaceutical department for patients, which improved drug administration speed.</li>
+                            <li>Developed a multipage digital patient admission form, which helped the hospital move towards their goal of a paperless admission process and improving data collection.</li>
+                            <li>Developed a drug prescribing calculator for the pharmaceutical department, helping calculate the correct medication dosage based on patient gender, age, and other factors.</li>
+                            <li>Developed a stock management system to track inventory levels, notify when stock is low, and integrated it with Sage to monitor delivery status when new orders are made.</li>
+                            <li>Optimized the HR new staff onboarding portal by reducing backend request/response time, enhancing system performance.</li>
+                        </ul>
+
                         <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-black"></span>
                     </div>
                 </div>
