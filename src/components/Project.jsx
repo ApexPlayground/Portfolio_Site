@@ -39,7 +39,15 @@ const Project = () => {
             title: "Apex Healthcare",
             technologies: "Python, Django, JavaScript, MySQL",
             description: "Developed a full-stack web application that predicts potential diseases with 95% accuracy using machine learning based on user-reported symptoms. The platform features appointment booking and a doctor's portal to notify doctors of diagnoses and scheduled appointments, improving patient care.",
-            githubLink: "https://github.com/ApexPlayground/Apex_Healthcare"
+            githubLink: "https://github.com/ApexPlayground/Apex_Healthcare",
+
+        },
+        {
+            title: "HeyThere",
+            technologies: "React, Express, Node.js, WebSocket, MongoDB",
+            description: "A real-time chat app built with Node.js, Socket.IO, React, and Zustand, using JWT for user authentication and MongoDB for data storage. Features include online/offline user status, text/image messaging, and persistent WebSocket connections.",
+            githubLink: "https://github.com/ApexPlayground/HeyThere",
+            websiteLink: "https://heythere-db2c.onrender.com/"
         },
         {
             title: "Shell Lite",
