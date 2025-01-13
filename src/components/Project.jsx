@@ -47,7 +47,7 @@ const Project = () => {
             technologies: "React, Express, Node.js, WebSocket, MongoDB",
             description: "A real-time chat app built with Node.js, Socket.IO, React, and Zustand, using JWT for user authentication and MongoDB for data storage. Features include online/offline user status, text/image messaging, and persistent WebSocket connections.",
             githubLink: "https://github.com/ApexPlayground/HeyThere",
-            websiteLink: "https://heythere-db2c.onrender.com/"
+            websiteLink: "https://heythere-6yi0.onrender.com/"
         },
         {
             title: "Shell Lite",
