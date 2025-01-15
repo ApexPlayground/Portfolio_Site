@@ -50,6 +50,12 @@ const Project = () => {
             websiteLink: "https://heythere-6yi0.onrender.com/"
         },
         {
+            title: "ApexCloud ",
+            technologies: "FastApi, Javascript, Google Cloud Platform(PaaS)",
+            description: "I developed a secure cloud storage platform with Google Authentication for user login. It allows users to upload, store, and download files, and includes a file-sharing feature with customizable permissions (view, edit, delete) for secure collaboration.",
+            githubLink: "https://github.com/ApexPlayground/Apex_Cloud",
+        },
+        {
             title: "Shell Lite",
             technologies: "Go",
             description: "A lightweight shell application that supports basic shell commands, such as ls, cd, and pwd. The platform also features a history command, which logs the user's command history and allows them to access previous commands.",
@@ -67,7 +73,8 @@ const Project = () => {
             description: "A web application that uses OpenAI GPT-4 to summarize articles from various sources using URL links, delivering clear and understandable summaries. Designed to save time and keep users informed, the platform features a simple user-friendly interface.",
             githubLink: "https://github.com/ApexPlayground/ArticleSummarizerGPT4",
             websiteLink: "https://summarizeme.netlify.app/"
-        }
+        },
+
     ];
 
     return (
