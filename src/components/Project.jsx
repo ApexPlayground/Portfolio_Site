@@ -65,7 +65,7 @@ const Project = () => {
             title: "SummarizeMe",
             technologies: "React",
             description: "A web application that uses OpenAI GPT-4 to summarize articles from various sources using URL links, delivering clear and understandable summaries. Designed to save time and keep users informed, the platform features a simple user-friendly interface.",
-            githubLink: "https://github.com/ApexPlayground/summarizeme",
+            githubLink: "https://github.com/ApexPlayground/ArticleSummarizerGPT4",
             websiteLink: "https://summarizeme.netlify.app/"
         }
     ];
