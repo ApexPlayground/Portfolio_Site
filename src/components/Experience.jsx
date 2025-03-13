@@ -18,21 +18,33 @@ const Experience = () => {
                         <p className="text-sm text-gray-600"> June 2024 - Sep 2024</p>
                         <ul className="text-sm text-gray-600 list-disc ml-5">
                             <li>
-                                Built an in-house stock management system to track inventory,
-                                notify users of low stock, and integrate with Sage for delivery
-                                updates, supporting 50+ IT helpdesk staff.
+                                Designed and deployed RESTful APIs using Java Spring Boot, enabling seamless integration with hospital
+                                systems.
                             </li>
                             <li>
-                                Optimized the staff onboarding portal by improving database
-                                queries, reducing backend request/response time by 45%. This
-                                benefited the human resources department by making it faster to
-                                add new staff to the system.
+                                Implemented Spring Security for authentication and role-based access control, enhancing application
+                                security.
                             </li>
                             <li>
-                                Developed a drug prescribing assistant for the pharmaceutical
-                                department, accurately calculating dosages for 3,000+ patients
-                                based on key health metrics.
+                                Deployed applications on AWS EC2 and used AWS S3 for storing photos and videos in the applications.
+
                             </li>
+                            <li>
+                                Developed an in-house drug prescribing assistant, automating dosage calculations for 3,000+ patients and
+                                enhancing pharmaceutical operations.
+                            </li>
+                            <li>
+                                Optimized MySQL queries, reducing backend request/response time by 45%, enabling faster HR
+                                onboarding.
+
+                            </li>
+                            <li>
+                                Developed an in-house drug prescribing assistant, automating dosage calculations for 3,000+ patients and
+                                enhancing pharmaceutical operations.
+                            </li>
+
+                            <li>Collaborated with multiple departments to gather software requirements and implement tailored software
+                                solutions.</li>
                         </ul>
 
                         <span className="absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-black"></span>
@@ -48,14 +60,20 @@ const Experience = () => {
                         <p className="text-sm text-gray-600">  Feb 2023 - Sep 2023</p>
                         <ul className="text-sm text-gray-600 list-disc ml-5">
                             <li>
-                                Led the migration of intranet applications and tools across servers, ensuring location consistency and availability. This directly impacted over 1,000+ hospital staff by enhancing system reliability and accessibility.
+                                Built a digital patient admission form using React and ASP.NET, reducing data collection time by 40%
+                                meeting the hospital’s goal of eliminating 10,000+ paper forms annually.
                             </li>
                             <li>
-                                Designed a digital patient admission form using React and C#, reducing data collection time by 40% and eliminating 10,000+ paper forms annually.
+                                Developed a medication ordering system, simplifying the nurse-to-pharmacy requests and reducing drug
+                                administration time by 30%.
 
                             </li>
                             <li>
-                                Developed a medication ordering system, enabling nurses to place orders with the pharmaceutical department, reducing drug administration time by 30% and enhancing overall efficiency.
+                                Led the migration of hospital intranet applications across servers, improving system availability for 1,000+
+                                staff.
+                            </li>
+                            <li>
+                                Conducted software testing and debugging to ensure application reliability and functionality.
 
                             </li>
 
